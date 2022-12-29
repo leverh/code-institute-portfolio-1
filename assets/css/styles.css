@@ -6,7 +6,38 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
+    width: 100vw;
+    height: 100vh;
     font-family: 'Noto Sans', sans-serif;
+    color: #22272d;
     font-weight: 300;
+}
+
+
+/* HEADING FORMATS */
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #131313;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
