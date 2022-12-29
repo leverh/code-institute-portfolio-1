@@ -73,6 +73,7 @@ header a {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #hero-image {
@@ -92,3 +93,26 @@ header a {
         transform: scale(1.1);
     }
 }
+
+#hero-text-box, #hero-text-box h2, #hero-text-box h3 {
+    color:#000;
+}
+
+#hero-text-box {
+    font-size: 150%;
+    text-transform: uppercase;
+    width: 20rem;
+    position: absolute;
+    top: 6rem;
+    left: 13rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    justify-content: center;
+}
+
+#hero-text-box h3{
+    color: #a12e08;
+    line-height: 2.3rem;
+}
+
