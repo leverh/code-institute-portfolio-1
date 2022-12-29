@@ -34,10 +34,34 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 3rem 5rem 3rem 3rem;
 }
 
-nav ul {
+h1 {
+    font-size: 450%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#menu {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 4rem;
+    font-size: 200%;
+    list-style: none;
+}
+
+#menu a {
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #22272d;
+}
+
+.active {
+    border-bottom: 1px solid #22272d;
 }
