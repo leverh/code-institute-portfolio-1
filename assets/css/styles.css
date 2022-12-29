@@ -65,3 +65,30 @@ header a {
 .active {
     border-bottom: 1px solid #22272d;
 }
+
+
+/* HERO IMAGE */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 70rem;
+    width: 100%;
+    background: url(/assets/images/doruk-yemenici-FRJamIO-TB0-unsplash.jpg) no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from {
+       transform: scale(1); 
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
