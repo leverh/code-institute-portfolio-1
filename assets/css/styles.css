@@ -38,7 +38,6 @@ h1, h2, h3 {
 .box-text {
     text-align: center;
     font-size: 2.3rem;
-    width: 30%;
 }
 
 
@@ -169,13 +168,47 @@ header a {
 
 .value-text {
     margin-right: 20rem;
+    width: 30%;
 }
 
 
 /* WORK SECTION*/
 
+#work {
+    width: 100%;
+    height: 50rem;
+    margin-bottom: 15rem;
+}
+
 #work h2 {
     text-align: center;
     margin-bottom: 1rem;
     font-size: 3rem;
+}
+
+.work-box {
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #ced5db;
+}
+
+.work-image {
+    background-image: url(/assets/images/marcus-ganahl-7-hgmSe7Bc4-unsplash\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 40%;
+    
+}
+
+.work-text {
+    width: 30%;
+    text-align: center;
+    margin-left: 15%;
 }
