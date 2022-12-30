@@ -212,3 +212,36 @@ header a {
     text-align: center;
     margin-left: 15%;
 }
+
+
+/*STATISTICS SECTION*/
+
+#statistics {
+    width: 100%;
+    height: 50rem;
+    margin-bottom: 15rem;
+}
+
+#statistics h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+#left-stats {
+    padding-top: 3rem;
+    width: 33%;
+    float: left;
+}
+
+#right-stats {
+    padding-top: 3rem;
+    width: 33%;
+    float: right; 
+}
+
+#middle-stats {
+    padding-top: 3rem;
+    width: 33%;
+    margin: 0 auto;
+}
