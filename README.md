@@ -1,4 +1,4 @@
-Fonts: font-family: 'Noto Sans', 'Raleway', sans-serif;
+Fonts: font-family: 'Noto Sans', 'Raleway', 'Manrope', sans-serif;
 
 Font colors: body- #22272d
                    #a12e08
