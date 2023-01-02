@@ -463,7 +463,7 @@ label {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 12500px) {
+@media screen and (max-width: 1250px) {
     
     #values {
         margin-bottom: 23rem;
@@ -505,6 +505,12 @@ label {
 
     .work-image {
         height: 150%;
+    }
+
+    .container {
+        padding: 0 3 0 0;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -626,3 +632,11 @@ label {
         text-align: center;
     }
 }
+
+@media screen and (max-width: 400px) {
+    #menu  {
+      font-size: 150%; 
+      align-items: flex-start;
+    }
+}
+
