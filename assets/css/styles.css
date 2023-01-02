@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&display=swap');
 
 * {
     padding: 0;
@@ -22,7 +23,7 @@ body {
 /* RE-USABLE STUFF */
 
 h1, h2, h3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Manrope', sans-serif;
     text-transform: uppercase;
     color: #131313;
 }
@@ -109,6 +110,7 @@ header a {
 
 #hero-text-box, #hero-text-box h2, #hero-text-box h3 {
     color:#000;
+    font-weight: 700;
 }
 
 #hero-text-box {
@@ -122,10 +124,12 @@ header a {
     flex-direction: column;
     gap: 1.7rem;
     justify-content: center;
+    background-color:rgba(223, 207, 207, 0.6);
+    padding: 2rem;
+    border-radius: 2rem;
 }
 
 #hero-text-box h3{
-    color: #a12e08;
     line-height: 2.3rem;
 }
 
@@ -455,4 +459,23 @@ label {
 .signup-button:hover {
     color: #a12e08;
     background-color: #fff;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 12500px) {
+    .values-box {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        
+}
+    .value-text {
+        margin-right: 0;
+    }
+
+    .value-image {
+        
+    }
 }
