@@ -529,3 +529,100 @@ label {
         background-position: center bottom;
     }
 }
+
+@media screen and (max-width: 550px) {
+    #menu {
+        flex-direction: column;
+        gap: .7rem;
+    }
+
+    #hero-text-box {
+        top: 13rem;
+    } 
+
+    #values {
+        margin-bottom: 29rem;
+    }
+
+    .value-image {
+        height: 35%;
+        margin-top: 0;
+    }
+
+    .value-text {
+        font-size: 1.5rem;
+        width: 60%;
+        text-align: left;
+    }
+
+    .values-box {
+        justify-content: space-evenly;
+    }
+
+    .work-text {
+        font-size: 1.5rem;
+        width: 60%;
+        text-align: left;
+    }
+
+    .work-image {
+        max-width: 60%;
+    }
+
+    #statistics {
+        height: 45rem;
+    }
+
+    .numbers-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #left-stats {
+        float: none;
+        padding-top: 0;
+    }
+
+    .freed {
+        float: none;
+        margin: 3rem;
+    }
+
+    #right-stats {
+        float: none;
+        padding-top: 0;
+    }
+
+    #middle-stats {
+        float: none;
+        padding-top: 0;
+    }
+
+    .number {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .legal {
+        margin-top: 0;
+    }
+
+    .investigations {
+        margin-top: 0;
+    }
+
+    .alf-img {
+        margin-top: 2rem;
+    }
+
+    .stat-icon {
+        margin-bottom: 2rem;
+    }
+
+    .freed h3 {
+        width: 150%;
+        text-align: center;
+    }
+}
