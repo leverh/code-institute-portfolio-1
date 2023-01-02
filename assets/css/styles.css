@@ -511,10 +511,21 @@ label {
 @media screen and (max-width: 970px) {
     .value-image {
         width: 53vw;
+        margin-top: 4rem;
     }
 
     .box-text {
         font-size: 2rem;
         width: 40%;
+        font-weight: 600;
+    }
+
+    .work-box {
+        padding-top: 0;
+    }
+
+    .work-image {
+        max-height: 64%;
+        background-position: center bottom;
     }
 }
