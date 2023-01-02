@@ -93,7 +93,7 @@ header a {
 #hero-image {
     height: 70rem;
     width: 100%;
-    background: url(/assets/images/doruk-yemenici-FRJamIO-TB0-unsplash.jpg) no-repeat center center;
+    background: url(assets/images/doruk-yemenici-FRJamIO-TB0-unsplash.jpg) no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -163,7 +163,7 @@ header a {
 }
 
 .value-image {
-    background-image: url(/assets/images/marek-piwnicki-PUVVsYJPh78-unsplash.jpg);
+    background-image: url(assets/images/marek-piwnicki-PUVVsYJPh78-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -202,7 +202,7 @@ header a {
 }
 
 .work-image {
-    background-image: url(/assets/images/marcus-ganahl-7-hgmSe7Bc4-unsplash\(1\).jpg);
+    background-image: url(assets/images/marcus-ganahl-7-hgmSe7Bc4-unsplash\(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -395,7 +395,7 @@ footer h2 {
 /* FORM PAGE */
 
 .register {
-    background: url(/assets/images/ricky-kharawala-adK3Vu70DEQ-unsplash.jpg);
+    background: url(assets/images/ricky-kharawala-adK3Vu70DEQ-unsplash.jpg);
     background-size: cover;
     background-position:left;
 }
