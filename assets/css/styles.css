@@ -464,11 +464,18 @@ label {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 12500px) {
+    
+    #values {
+        margin-bottom: 23rem;
+    }
+    
     .values-box {
         flex-direction: column;
         gap: 2rem;
         align-items: center;
         justify-content: center;
+        height: 125%;
+        padding-bottom: 2rem;
         
 }
     .value-text {
@@ -476,6 +483,38 @@ label {
     }
 
     .value-image {
-        
+        height: 150%;
+    }
+
+    #work {
+        margin-bottom: 23rem;
+    }
+
+    .work-box {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2rem;
+        height: 125%;
+    }
+
+    .work-text {
+        margin-left: 0;
+    }
+
+    .work-image {
+        height: 150%;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .value-image {
+        width: 53vw;
+    }
+
+    .box-text {
+        font-size: 2rem;
+        width: 40%;
     }
 }
