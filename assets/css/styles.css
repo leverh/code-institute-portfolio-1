@@ -591,6 +591,8 @@ label {
 
     .work-image {
         max-width: 60%;
+        background-size: auto;
+        background-position: center;
     }
 
     #statistics {
