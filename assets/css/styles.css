@@ -55,6 +55,10 @@ h1 {
     font-size: 450%;
 }
 
+.icon-img {
+    width: 3.5rem;
+}
+
 header a {
     text-decoration: none;
 }
@@ -514,6 +518,12 @@ label {
 }
 
 @media screen and (max-width: 970px) {
+    .icon-img {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
     .value-image {
         width: 53vw;
         margin-top: 4rem;
@@ -535,10 +545,17 @@ label {
     }
 }
 
-@media screen and (max-width: 550px) {
+
+
+@media screen and (max-width: 660px) {
     #menu {
         flex-direction: column;
         gap: .7rem;
+        font-size: 150%;
+    }
+
+    #logo {
+        font-size: 300%;
     }
 
     #hero-text-box {
@@ -576,7 +593,11 @@ label {
 
     #statistics {
         height: 45rem;
+        display: flex;
+        flex-direction: column;
     }
+
+    
 
     .numbers-box {
         display: flex;
@@ -592,7 +613,14 @@ label {
 
     .freed {
         float: none;
-        margin: 3rem;
+        
+    }
+
+    .stat-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     #right-stats {
