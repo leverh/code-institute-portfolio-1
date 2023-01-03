@@ -565,7 +565,7 @@ label {
     } 
 
     #values {
-        margin-bottom: 29rem;
+        margin-bottom: 25rem;
     }
 
     .value-image {
@@ -611,6 +611,7 @@ label {
     #left-stats {
         float: none;
         padding-top: 0;
+        width: auto;
     }
 
     .freed {
@@ -628,11 +629,13 @@ label {
     #right-stats {
         float: none;
         padding-top: 0;
+        width: auto;
     }
 
     #middle-stats {
         float: none;
         padding-top: 0;
+        width: auto;
     }
 
     .number {
