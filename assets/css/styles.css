@@ -126,7 +126,7 @@ header a {
     left: 13rem;
     display: flex;
     flex-direction: column;
-    gap: 1.7rem;
+    gap: .2rem;
     justify-content: center;
     background-color:rgba(223, 207, 207, 0.6);
     padding: 2rem;
@@ -135,6 +135,7 @@ header a {
 
 #hero-text-box h3{
     line-height: 2.3rem;
+    text-transform: none;
 }
 
 
