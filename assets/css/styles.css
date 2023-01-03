@@ -417,6 +417,7 @@ footer h2 {
     background-color: rgba(83, 74, 74, 0.6);
     color: #fff;
     font-size: 1.9rem;
+    border-radius: 6px;
 }
 
 .form-header {
@@ -451,7 +452,7 @@ label {
 
 .signup-button {
     display: block;
-    border-radius: 3px;
+    border-radius: 7px;
     text-align: center;
     font-size: 100%;
     background-color: #a12e08;
