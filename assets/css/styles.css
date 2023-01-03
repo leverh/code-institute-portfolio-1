@@ -118,6 +118,10 @@ header a {
     font-weight: 700;
 }
 
+#hero-text-box h3 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 #hero-text-box {
     font-size: 150%;
     text-transform: uppercase;
