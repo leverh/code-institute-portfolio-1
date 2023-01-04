@@ -113,37 +113,6 @@ header a {
     }
 }
 
-#hero-text-box, #hero-text-box h2, #hero-text-box h3 {
-    color:#000;
-    font-weight: 700;
-}
-
-#hero-text-box h3 {
-    font-family: 'Noto Sans', sans-serif;
-}
-
-#hero-text-box {
-    font-size: 150%;
-    text-transform: uppercase;
-    width: 20rem;
-    position: absolute;
-    top: 6rem;
-    left: 13rem;
-    display: flex;
-    flex-direction: column;
-    gap: .2rem;
-    justify-content: center;
-    background-color:rgba(223, 207, 207, 0.6);
-    padding: 2rem;
-    border-radius: 2rem;
-}
-
-#hero-text-box h3{
-    line-height: 2.3rem;
-    text-transform: none;
-}
-
-
 /* VALUES SECTION */
 
 #values {
@@ -530,6 +499,18 @@ label {
         text-align: center;
         margin: 0 auto;
     }
+
+    .header-container  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .header-container h3 {
+        text-align: center;
+    }
     
     .value-image {
         width: 53vw;
@@ -565,9 +546,9 @@ label {
         font-size: 300%;
     }
 
-    #hero-text-box {
-        top: 13rem;
-    } 
+    .header-container h3 {
+        max-width: 70%;
+    }
 
     #values {
         margin-bottom: 25rem;
