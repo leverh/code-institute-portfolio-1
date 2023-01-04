@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Raleway:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@0;1&family=Lato:wght@700&family=Lora:wght@600;700&display=swap');
 
 * {
     padding: 0;
@@ -14,8 +13,8 @@ html {
 body {
     width: 100vw;
     height: 100vh;
-    font-family: 'Noto Sans', sans-serif;
-    color: #22272d;
+    font-family: 'Arimo', sans-serif;
+    color: #545454;
     font-weight: 300;
 }
 
@@ -23,13 +22,13 @@ body {
 /* RE-USABLE STUFF */
 
 h1, h2, h3 {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Lora', serif;
     text-transform: uppercase;
-    color: #131313;
+    color: #545454;
 }
 
 .dash {
-    border-top: 7px solid #3e4146;
+    border-top: 7px solid #545454;
     height: 0;
     width: 4rem;
     margin: 0 auto;
@@ -53,6 +52,11 @@ header {
 
 h1 {
     font-size: 450%;
+}
+
+header h3 {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
 }
 
 .icon-img {
@@ -287,7 +291,7 @@ footer h2 {
 
 .social i {
     font-size: 4.7rem;
-    color: #000;
+    color: #545454;
 }
 
 .social li {
@@ -301,7 +305,7 @@ footer h2 {
 
 .attribution a {
     text-decoration: none;
-    color: #000;
+    color: #545454;
 }
 
 
@@ -559,6 +563,10 @@ label {
         margin-top: 0;
     }
 
+    .box-text {
+        letter-spacing: .1rem;
+    }
+
     .value-text {
         font-size: 1.5rem;
         width: 60%;
@@ -586,8 +594,6 @@ label {
         display: flex;
         flex-direction: column;
     }
-
-    
 
     .numbers-box {
         display: flex;
