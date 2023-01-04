@@ -96,13 +96,14 @@ The live link for the page can be found here: [https://leverh.github.io/code-ins
 
 - The icons i used were from [fontawesome](https://fontawesome.com/) and [Flaticon](https://www.flaticon.com/)
 
-- Fonts used on this page are all from the [Google Fonts](https://fonts.google.com/) website. The following fonts were used:
+- Fonts used on this page are all from the [Google Fonts](https://fonts.google.com/) website. I had initially chosen different font families altogether and changed them in the last minute. I found they were too rigid. I switched to fonts that are friendlier, warmer, and more inviting and less mechanical. 
+
+The following fonts were used:
 
 - 'Arimo', sans-serif;
 - 'Lato', sans-serif;
 - 'Lora', serif;
 
-Fonts: font-family: 'Noto Sans', 'Raleway', 'Manrope', sans-serif;
 
 
 
