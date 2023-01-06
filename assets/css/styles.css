@@ -550,6 +550,10 @@ label {
         font-size: 300%;
     }
 
+    header {
+        align-items: flex-start;
+    }
+
     .header-container h3 {
         max-width: 70%;
     }
