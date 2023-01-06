@@ -504,7 +504,7 @@ label {
         margin: 0 auto;
     }
 
-    .header-container  {
+    .header-container, .header-gallery-container  {
         display: flex;
         flex-direction: column;
         justify-content: center;
